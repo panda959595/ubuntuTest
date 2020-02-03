@@ -1,0 +1,63 @@
+    1  ls
+    2  pwd
+    3  sudo apt-get install git
+    4  git --version
+    5  pwd
+    6  ls
+    7  ssh-keygen
+    8  pwd
+    9  cd ..
+   10  cd kyungbin/.ssh/id_rsa
+   11  cd kyungbin/.ssh/
+   12  ls
+   13  cat id_rsa.pub
+   14  ls
+   15  cd ..
+   16  ls
+   17  pwd
+   18  mkdir TestProject
+   19  ls
+   20  cd TestProject
+   21  ls
+   22  git init
+   23  ls
+   24  ls -al
+   25  git remote add origin git@github.com:kokomo0/Test.git
+   26  ls
+   27  vi test1
+   28  cat test1
+   29  git add .
+   30  git commit -m "my first commit"
+   31  git config --global user.email astro951126@gmail.com
+   32* git config --global user.name "kokomo0""
+   33  git commit
+   34  git commit -m "my first commit"
+   35  git push origin master
+   36  ls
+   37  cd ..
+   38  ls
+   39  mkdir Test
+   40  cd Test
+   41  git clone git@github.com:panda959595/ubuntuTest.git
+   42  ls
+   43  ls -al
+   44  cd ubuntuTest
+   45  ls
+   46  cat README
+   47  ls -al
+   48  ls
+   49  vi Hello
+   50  ls
+   51  git add Hello
+   52  git commit -m "hello"
+   53  git push origin master
+   54  ls
+   55  ls -al
+   56  ls
+   57  vi Dear_SM
+   58  ls
+   59  vi Dear_SM
+   60  history
+   61  cat history > dear_junior
+   62  ls
+   63  history > dear_junior
